@@ -4,5 +4,8 @@ import Foundation
 import PackageDescription
 
 let package = Package(
-  name: "Spectre"
+  name: "Spectre",
+  targets: [
+    .target(name: "Spectre"),
+  ]
 )
